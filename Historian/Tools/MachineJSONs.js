@@ -9,7 +9,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 0.001, true, false],
 				in: [],
 				out: [
-					["Earth", 1, 1.2],
+					["Earth", 1, 1e307],
 				],
 				lock: ["Earth", 0],
 				upgrade: ["earthStart2", "Water", 0.1],
@@ -19,7 +19,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 0.002, false, false],
 				in: [],
 				out: [
-					["Earth", 1, 1.2],
+					["Earth", 1, 1e307],
 				],
 				upgrade: ["earthStart3", "Air", 0.1],
 			},
@@ -28,7 +28,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 0.004, false, false],
 				in: [],
 				out: [
-					["Earth", 1, 1.2],
+					["Earth", 1, 1e307],
 				],
 				upgrade: ["earthRift1", "Earth", 5],
 			},
