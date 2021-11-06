@@ -1965,8 +1965,8 @@ var midCircle = {
 						["Revelation", 1, 0.01],
 					],
 					out: [
-						["Revelation", 1, -1],
-						["Knowledge", 0.03, 7],
+						["Revelation", 1, -1e307],
+						["Knowledge", 0.03, 1e307],
 					],
 					lock: ["Revelation", 0.1],
 					upgrade: ["knowledgeProduction2", "Gold", 1],
@@ -1978,8 +1978,8 @@ var midCircle = {
 						["Revelation", 1, 0.01],
 					],
 					out: [
-						["Revelation", 1, -5],
-						["Knowledge", 0.05, 9, 1.3, ["DistilledEarth", 0.1, "DistilledWater", 0.1, "DistilledAir", 0.1, "DistilledFire", 0.1]],
+						["Revelation", 1, -1e307],
+						["Knowledge", 0.05, 9, 1e307],
 					],
 					upgrade: ["knowledgeProduction3", "Knowledge", 25],
 				},
@@ -1990,8 +1990,8 @@ var midCircle = {
 						["Revelation", 1, 0.01],
 					],
 					out: [
-						["Revelation", 1, -5],
-						["Knowledge", 0.8, 79],
+						["Revelation", 1, -1e307],
+						["Knowledge", 0.8, 1e307],
 					],
 				},
 				revelationGain1:
@@ -2001,7 +2001,7 @@ var midCircle = {
 						["Gold", 1, 0.3],
 					],
 					out: [
-						["Revelation", 1, 1.2, 4, ["Knowledge", 8]],
+						["Revelation", 1, 1e307],
 					],
 					lock: ["Gold", 0.1],
 					upgrade: ["revelationGain2", "Knowledge", 75],
@@ -2013,7 +2013,7 @@ var midCircle = {
 						["Knowledge", 1, 0.3],
 					],
 					out: [
-						["Revelation", 1, 4.8],
+						["Revelation", 1, 1e307],
 					],
 				},
 			}
@@ -2032,7 +2032,7 @@ var midCircle = {
 						["Water", 200, 7900],
 					],
 					out: [
-						["Essence", 1, 1.2, 2, ["Glass", 1.1]],
+						["Essence", 1, 1e307],
 					],
 					lock: ["Knowledge", 0.5, "Space", 1],
 				},
@@ -2052,7 +2052,7 @@ var midCircle = {
 						["Earth", 200, 7900],
 					],
 					out: [
-						["Soil", 1, 1.2, 2, ["Force", 0.2]],
+						["Soil", 1, 1e307],
 					],
 					lock: ["Knowledge", 0.1],
 					upgrade: ["soilMerge2", "Knowledge", 36],
@@ -2066,7 +2066,7 @@ var midCircle = {
 						["Earth", 200, 7900],
 					],
 					out: [
-						["Soil", 1, 12],
+						["Soil", 1, 1e307],
 					],
 				},
 				soilAdvMerge1:
@@ -2079,7 +2079,7 @@ var midCircle = {
 						["Water", 2000, 79000],
 					],
 					out: [
-						["Soil", 1, 24],
+						["Soil", 1, 1e307],
 					],
 					lock: ["Acid", 1],
 				},
@@ -2099,7 +2099,7 @@ var midCircle = {
 						["Earth", 200, 7900],
 					],
 					out: [
-						["Obsidian", 1, 1.2],
+						["Obsidian", 1, 1e307],
 					],
 					lock: ["Knowledge", 0.2],
 				},
@@ -2111,7 +2111,7 @@ var midCircle = {
 						["Gale", 0, 3.4],
 					],
 					out: [
-						["Obsidian", 0.1, 2.4],
+						["Obsidian", 0.1, 1e307],
 					],
 					lock: ["Stone", 1],
 				},
@@ -2131,7 +2131,7 @@ var midCircle = {
 						["Fire", 200, 7900],
 					],
 					out: [
-						["Lava", 1, 1.2],
+						["Lava", 1, 1e307],
 					],
 					lock: ["Knowledge", 2, "Obsidian", 1, "Force", 1],
 				},
@@ -2152,7 +2152,7 @@ var midCircle = {
 						["Fire", 10000, 27900],
 					],
 					out: [
-						["Space", 1, 3.2],
+						["Space", 1, 1e307],
 					],
 					lock: ["Knowledge", 1.5],
 				},
@@ -2172,7 +2172,7 @@ var midCircle = {
 						["Air", 200, 7900],
 					],
 					out: [
-						["Snow", 1, 1.2, 4, ["Cryospire", 0.1, "Vortex", 0.1]],
+						["Snow", 1, 1e307],
 					],
 					lock: ["Knowledge", 0.3],
 				},
@@ -2192,7 +2192,7 @@ var midCircle = {
 						["Water", 200, 7900],
 					],
 					out: [
-						["Cryogen", 1, 1.2],
+						["Cryogen", 1, 1e307],
 					],
 					lock: ["Knowledge", 7, "Essence", 1.5, "Ice", 600],
 				},
@@ -2213,7 +2213,7 @@ var midCircle = {
 						["Lava", 0, 1.1],
 					],
 					out: [
-						["Glass", 1, 1.2, 2, ["Knowledge", 36]],
+						["Glass", 1, 1e307],
 					],
 					lock: ["Knowledge", 3.3, "Sand", 300],
 				},
@@ -2234,7 +2234,7 @@ var midCircle = {
 						["Water", 2000, 7900],
 					],
 					out: [
-						["Gold", 1, 1.2],
+						["Gold", 1, 1e307],
 					],
 					lock: ["Knowledge", 7, "Cryogen", 0.4, "Force", 1.1, "Sand", 700],
 					upgrade: ["goldMerge2", "Iron", 0.01],
@@ -2248,7 +2248,7 @@ var midCircle = {
 						["Water", 2000, 7900],
 					],
 					out: [
-						["Gold", 1, 1.2],
+						["Gold", 1, 1e307],
 					],
 					upgrade: ["goldMerge3", "Silver", 1.01],
 				},
@@ -2261,7 +2261,7 @@ var midCircle = {
 						["Water", 2000, 7900],
 					],
 					out: [
-						["Gold", 1, 1.2],
+						["Gold", 1, 1e307],
 					],
 					upgrade: ["goldMerge4", "Bronze", 1.01],
 				},
@@ -2274,7 +2274,7 @@ var midCircle = {
 						["Water", 2000, 7900],
 					],
 					out: [
-						["Gold", 1, 1.2],
+						["Gold", 1, 1e307],
 					],
 					upgrade: ["goldMerge5", "Copper", 1.01],
 				},
@@ -2287,7 +2287,7 @@ var midCircle = {
 						["Water", 2000, 7900],
 					],
 					out: [
-						["Gold", 1, 1.2],
+						["Gold", 1, 1e307],
 					],
 					upgrade: ["goldMerge6", "Tin", 1.01],
 				},
@@ -2300,7 +2300,7 @@ var midCircle = {
 						["Water", 2000, 7900],
 					],
 					out: [
-						["Gold", 1, 1.2],
+						["Gold", 1, 1e307],
 					],
 					upgrade: ["goldMerge7", "Aluminum", 1.01],
 				},
@@ -2313,7 +2313,7 @@ var midCircle = {
 						["Water", 2000, 7900],
 					],
 					out: [
-						["Gold", 1, 1.2],
+						["Gold", 1, 1e307],
 					],
 					upgrade: ["goldMerge8", "Iron", 1.01],
 				},
@@ -2326,7 +2326,7 @@ var midCircle = {
 						["Water", 2000, 7900],
 					],
 					out: [
-						["Gold", 1, 4.8],
+						["Gold", 1, 1e307],
 					],
 				},
 			}
@@ -2345,7 +2345,7 @@ var midCircle = {
 						["Air", 200, 7900],
 					],
 					out: [
-						["Force", 1, 1.2],
+						["Force", 1, 1e307],
 					],
 					lock: ["Knowledge", 0.8, "Space", 1],
 					upgrade: ["forceMerge2", "Steel", 1, "Space", 1e8],
@@ -2361,7 +2361,7 @@ var midCircle = {
 						["Fire", 200, 7900],
 					],
 					out: [
-						["Force", 1, 102],
+						["Force", 1, 1e307],
 					],
 				},
 			}
@@ -2380,7 +2380,7 @@ var midCircle = {
 						["Earth", 200, 7900],
 					],
 					out: [
-						["Oil", 1, 1.2],
+						["Oil", 1, 1e307],
 					],
 					lock: ["Knowledge", 0.4],
 				},
@@ -2393,7 +2393,7 @@ var midCircle = {
 						["Water", 200, 7900],
 					],
 					out: [
-						["Oil", 1, 3.6],
+						["Oil", 1, 1e307],
 					],
 					lock: ["Silver", 0.4],
 				},
@@ -2407,7 +2407,7 @@ var midCircle = {
 						["Air", 200, 7900],
 					],
 					out: [
-						["Oil", 1, 64],
+						["Oil", 1, 1e307],
 					],
 					lock: ["Steel", 1],
 				},
@@ -2429,7 +2429,7 @@ var midCircle = {
 						["Fire", 10000, 51000],
 					],
 					out: [
-						["Solution", 10, 120],
+						["Solution", 10, 1e307],
 					],
 					lock: ["Knowledge", 8],
 					upgrade: ["solutionMix2", "PureEssenceEarth", 1],
@@ -2445,7 +2445,7 @@ var midCircle = {
 						["Fire", 10000, 51000],
 					],
 					out: [
-						["Solution", 10, 120],
+						["Solution", 10, 1e307],
 					],
 					upgrade: ["solutionMix3", "PureEssenceAir", 1],
 				},
@@ -2460,7 +2460,7 @@ var midCircle = {
 						["Fire", 10000, 51000],
 					],
 					out: [
-						["Solution", 10, 120],
+						["Solution", 10, 1e307],
 					],
 					upgrade: ["solutionMix4", "PureEssenceWater", 1],
 				},
@@ -2475,7 +2475,7 @@ var midCircle = {
 						["Fire", 10000, 51000],
 					],
 					out: [
-						["Solution", 10, 120],
+						["Solution", 10, 1e307],
 					],
 					upgrade: ["solutionMix5", "PureEssenceFire", 1],
 				},
@@ -2490,7 +2490,7 @@ var midCircle = {
 						["Fire", 5000, 51000],
 					],
 					out: [
-						["Solution", 10, 120],
+						["Solution", 10, 1e307],
 					],
 					upgrade: ["solutionMix6", "Tin", 1e3],
 				},
@@ -2505,7 +2505,7 @@ var midCircle = {
 						["Fire", 5000, 51000],
 					],
 					out: [
-						["Solution", 1, 120],
+						["Solution", 1, 1e307],
 					],
 				},
 			}
@@ -2524,8 +2524,8 @@ var midCircle = {
 						["Lava", 1, 0.1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledEarth", 1, 0.8],
+						["Solution", 10, -1e307],
+						["DistilledEarth", 1, 1e307],
 					],
 					lock: ["Solution", 1],
 					upgrade: ["distillEarth2", "Knowledge", 36],
@@ -2539,8 +2539,8 @@ var midCircle = {
 						["Lava", 0.1, 0.1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledEarth", 1, 8],
+						["Solution", 10, -1e307],
+						["DistilledEarth", 1, 1e307],
 					],
 					upgrade: ["distillEarth3", "Vortex", 0.01],
 				},
@@ -2553,8 +2553,8 @@ var midCircle = {
 						["Blaze", 0, 1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledEarth", 1, 18],
+						["Solution", 10, -1e307],
+						["DistilledEarth", 1, 1e307],
 					],
 				},
 				distillWater1:
@@ -2566,8 +2566,8 @@ var midCircle = {
 						["Lava", 1, 0.1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledWater", 1, 0.8],
+						["Solution", 10, -1e307],
+						["DistilledWater", 1, 1e307],
 					],
 					lock: ["Solution", 1],
 					upgrade: ["distillWater2", "Knowledge", 36],
@@ -2581,8 +2581,8 @@ var midCircle = {
 						["Lava", 0.1, 0.1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledWater", 1, 8],
+						["Solution", 10, -1e307],
+						["DistilledWater", 1, 1e307],
 					],
 					upgrade: ["distillWater3", "Vortex", 0.01],
 				},
@@ -2595,8 +2595,8 @@ var midCircle = {
 						["Blaze", 0, 1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledWater", 1, 18],
+						["Solution", 10, -1e307],
+						["DistilledWater", 1, 1e307],
 					],
 				},
 				distillAir1:
@@ -2608,8 +2608,8 @@ var midCircle = {
 						["Lava", 1, 0.1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledAir", 1, 0.8],
+						["Solution", 10, -1e307],
+						["DistilledAir", 1, 1e307],
 					],
 					lock: ["Solution", 1],
 					upgrade: ["distillAir2", "Knowledge", 36],
@@ -2623,8 +2623,8 @@ var midCircle = {
 						["Lava", 0.1, 0.1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledAir", 1, 8],
+						["Solution", 10, -1e307],
+						["DistilledAir", 1, 1e307],
 					],
 					upgrade: ["distillAir3", "Vortex", 0.01],
 				},
@@ -2637,8 +2637,8 @@ var midCircle = {
 						["Blaze", 0, 1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledAir", 1, 18],
+						["Solution", 10, -1e307],
+						["DistilledAir", 1, 1e307],
 					],
 				},
 				distillFire1:
@@ -2650,8 +2650,8 @@ var midCircle = {
 						["Lava", 1, 0.1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledFire", 1, 0.8],
+						["Solution", 10, -1e307],
+						["DistilledFire", 1, 1e307],
 					],
 					lock: ["Solution", 1],
 					upgrade: ["distillFire2", "Knowledge", 36],
@@ -2665,8 +2665,8 @@ var midCircle = {
 						["Lava", 0.1, 0.1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledFire", 1, 8],
+						["Solution", 10, -1e307],
+						["DistilledFire", 1, 1e307],
 					],
 					upgrade: ["distillFire3", "Vortex", 0.01],
 				},
@@ -2678,8 +2678,8 @@ var midCircle = {
 						["Gale", 0, 1],
 					],
 					out: [
-						["Solution", 10, -140],
-						["DistilledFire", 1, 18],
+						["Solution", 10, -1e307],
+						["DistilledFire", 1, 1e307],
 					],
 				},
 			}
@@ -2698,7 +2698,7 @@ var midCircle = {
 						["Space", 1, 10.5]
 					],
 					out: [
-						["Pressure", 5, 12],
+						["Pressure", 5, 1e307],
 					],
 					lock: ["Knowledge", 8, "Pebbles", 0.02, "Space", 2],
 				},
@@ -2717,7 +2717,7 @@ var midCircle = {
 						["Earth", 1e7, 120],
 					],
 					out: [
-						["CompressedEarth", 5, 0.8],
+						["CompressedEarth", 5, 1e307],
 					],
 					lock: ["Pressure", 0.1],
 					upgrade: ["compressEarth2", "Knowledge", 36],
@@ -2730,7 +2730,7 @@ var midCircle = {
 						["Earth", 1e6, 120],
 					],
 					out: [
-						["CompressedEarth", 5, 8],
+						["CompressedEarth", 5, 1e307],
 					],
 				},
 				compressWater1:
@@ -2741,7 +2741,7 @@ var midCircle = {
 						["Water", 1e7, 120],
 					],
 					out: [
-						["CompressedWater", 5, 0.8],
+						["CompressedWater", 5, 1e307],
 					],
 					lock: ["Pressure", 0.1],
 					upgrade: ["compressWater2", "Knowledge", 36],
@@ -2754,7 +2754,7 @@ var midCircle = {
 						["Water", 1e6, 120],
 					],
 					out: [
-						["CompressedWater", 5, 8],
+						["CompressedWater", 5, 1e307],
 					],
 				},
 				compressAir1:
@@ -2765,7 +2765,7 @@ var midCircle = {
 						["Air", 1e7, 120],
 					],
 					out: [
-						["CompressedAir", 5, 0.8],
+						["CompressedAir", 5, 1e307],
 					],
 					lock: ["Pressure", 0.1],
 					upgrade: ["compressAir2", "Knowledge", 36],
@@ -2778,7 +2778,7 @@ var midCircle = {
 						["Air", 1e6, 120],
 					],
 					out: [
-						["CompressedAir", 5, 8],
+						["CompressedAir", 5, 1e307],
 					],
 				},
 				compressFire1:
@@ -2789,7 +2789,7 @@ var midCircle = {
 						["Fire", 1e7, 120],
 					],
 					out: [
-						["CompressedFire", 5, 0.8],
+						["CompressedFire", 5, 1e307],
 					],
 					lock: ["Pressure", 0.1],
 					upgrade: ["compressFire2", "Knowledge", 36],
@@ -2802,7 +2802,7 @@ var midCircle = {
 						["Fire", 1e6, 120],
 					],
 					out: [
-						["CompressedFire", 5, 8],
+						["CompressedFire", 5, 1e307],
 					],
 				},
 			}
@@ -2836,7 +2836,7 @@ var lifeCircle = {
 						["Distilled", -1, 0.01],
 					],
 					out: [
-						["Essence", -1, 14],
+						["Essence", -1, 1e307],
 					],
 					lock: ["Distilled", -1],
 				},
@@ -2857,7 +2857,7 @@ var lifeCircle = {
 						["Compressed", -1, 0.01],
 					],
 					out: [
-						["Soil", -1, 14],
+						["Soil", -1, 1e307],
 					],
 					lock: ["Compressed", -1],
 				},
@@ -2878,7 +2878,7 @@ var lifeCircle = {
 						["Essence", -1, 1.1],
 					],
 					out: [
-						["Seed", -1, 107],
+						["Seed", -1, 1e307],
 					],
 					lock: ["Essence", -9.01, "Soil", -0.1],
 				},
@@ -2905,7 +2905,7 @@ var lifeCircle = {
 						["PureEssence", -1, 0.01],
 					],
 					out: [
-						["Soil", -500, 230],
+						["Soil", -500, 1e307],
 					],
 					lock: ["PureEssence", -0.01, "Glass", 2.2, "Space", 120],
 				},
@@ -2926,8 +2926,8 @@ var lifeCircle = {
 						["SeedEarth", 1, 1],
 					],
 					out: [
-						["SeedEarth", 1, 111],
-						["PlantEarth", 1, 10000],
+						["SeedEarth", 1, 1e307],
+						["PlantEarth", 1, 1e307],
 					],
 					lock: ["SeedEarth", 1],
 				},
@@ -2938,7 +2938,7 @@ var lifeCircle = {
 						["PlantEarth", 100, 10],
 					],
 					out: [
-						["EssenceEarth", 1, 7, 7, ["FoldedSpace", 0.01]],
+						["EssenceEarth", 1, 1e307],
 					],
 					lock: ["PlantEarth", 1],
 				},
@@ -2950,7 +2950,7 @@ var lifeCircle = {
 						["SeedEarth", 1, 1],
 					],
 					out: [
-						["PureEssenceEarth", 1, 12],
+						["PureEssenceEarth", 1, 1e307],
 					],
 					lock: ["PlantEarth", 20],
 				},
@@ -2971,8 +2971,8 @@ var lifeCircle = {
 						["Cryospire", 0, 1],
 					],
 					out: [
-						["SeedWater", 1.01, -111],
-						["PlantWater", 1, 10000],
+						["SeedWater", 1.01, -1e307],
+						["PlantWater", 1, 1e307],
 					],
 					lock: ["EssenceWater", 0.1, "Cryospire", 1],
 				},
@@ -2983,7 +2983,7 @@ var lifeCircle = {
 						["PlantWater", 100, 10],
 					],
 					out: [
-						["EssenceWater", 1, 7, 7, ["Force", 1]],
+						["EssenceWater", 1, 1e307],
 					],
 					lock: ["PlantWater", 1],
 				},
@@ -2995,7 +2995,7 @@ var lifeCircle = {
 						["SeedWater", 0.7, 1],
 					],
 					out: [
-						["PureEssenceWater", 1, 12],
+						["PureEssenceWater", 1, 1e307],
 					],
 					lock: ["PlantWater", 20],
 				},
@@ -3014,9 +3014,9 @@ var lifeCircle = {
 						["SeedAir", 1, 1],
 					],
 					out: [
-						["SoilAir", 1, -250],
-						["SeedAir", 1, 111],
-						["PlantAir", 0.4, 10000],
+						["SoilAir", 1, -1e307],
+						["SeedAir", 1, 1e307],
+						["PlantAir", 0.4, 1e307],
 					],
 					lock: ["SeedAir", 1],
 				},
@@ -3027,7 +3027,7 @@ var lifeCircle = {
 						["PlantAir", 100, 10],
 					],
 					out: [
-						["EssenceAir", 1, 7, 7, ["Force", 1]],
+						["EssenceAir", 1, 1e307],
 					],
 					lock: ["PlantAir", 1],
 				},
@@ -3039,7 +3039,7 @@ var lifeCircle = {
 						["SeedAir", 1, 1],
 					],
 					out: [
-						["PureEssenceAir", 1, 12],
+						["PureEssenceAir", 1, 1e307],
 					],
 					lock: ["PlantAir", 20],
 				},
@@ -3059,7 +3059,7 @@ var lifeCircle = {
 						["Lava", 0.001, 1],
 					],
 					out: [
-						["SeedFire", 0.99, 131],
+						["SeedFire", 0.99, 1e307],
 						["PlantFire", 1, 10000],
 					],
 					lock: ["EssenceFire", 0.1, "Sulphur", 4, "Coal", 4],
@@ -3071,7 +3071,7 @@ var lifeCircle = {
 						["PlantFire", 10, 10],
 					],
 					out: [
-						["EssenceFire", 1, 7, 7, ["Force", 1]],
+						["EssenceFire", 1, 1e307],
 					],
 					lock: ["PlantFire", 1],
 				},
@@ -3083,7 +3083,7 @@ var lifeCircle = {
 						["SeedFire", 1, 1],
 					],
 					out: [
-						["PureEssenceFire", 1, 12],
+						["PureEssenceFire", 1, 1e307],
 					],
 					lock: ["PlantFire", 20],
 				},
@@ -3188,7 +3188,7 @@ var coldCircle = {
 						["Cryogen", 0.1, 0.4]
 					],
 					out: [
-						["Coolant", 5, 1080],
+						["Coolant", 5, 1e307],
 					],
 					lock: ["Knowledge", 36],
 					upgrade: ["coolantMerge2", "Power", 36]
@@ -3202,7 +3202,7 @@ var coldCircle = {
 						["Cryogen", 0.1, 0.4]
 					],
 					out: [
-						["Coolant", 5, 1080],
+						["Coolant", 5, 1e307],
 					],
 				},
 				coolantProduction1:
@@ -3214,7 +3214,7 @@ var coldCircle = {
 						["Cryospire", 0, 4],
 					],
 					out: [
-						["Coolant", 1, 1580],
+						["Coolant", 1, 1e307],
 					],
 					lock: ["Silver", 8],
 				},
@@ -3233,7 +3233,7 @@ var coldCircle = {
 						["Coolant", 1, 54],
 					],
 					out: [
-						["Gale", 10, 12],
+						["Gale", 10, 1e307],
 					],
 					lock: ["Knowledge", 36, "Coolant", 12],
 				},
@@ -3288,7 +3288,7 @@ var coldCircle = {
 						["Coolant", 200, 100],
 					],
 					out: [
-						["Cryospire", 2, 12],
+						["Cryospire", 2, 1e307],
 					],
 					lock: ["Knowledge", 36, "Silver", 2],
 				},
@@ -3344,7 +3344,7 @@ var coldCircle = {
 						["Ice", 1000, 200],
 					],
 					out: [
-						["Vortex", 1, 12],
+						["Vortex", 1, 1e307],
 					],
 					lock: ["Coolant", 1300],
 				},
@@ -3441,7 +3441,7 @@ var hotCircle = {
 						["Coal", 0.03, 0.3],
 					],
 					out: [
-						["Blaze", 0.024, 0.1],
+						["Blaze", 0.024, 1e307],
 					],
 					lock: ["Coal", 0.1],
 				},
@@ -3452,7 +3452,7 @@ var hotCircle = {
 						["Blaze", 1, 0.001],
 					],
 					out: [
-						["Blaze", 0.99, -12],
+						["Blaze", 0.99, -1e307],
 						["Ash", 0.01, -12],
 					],
 					lock: ["Ash", 1e99],
@@ -3466,7 +3466,7 @@ var hotCircle = {
 						["Blaze", 1, 0.1],
 					],
 					out: [
-						["Blaze", 1.98, 1.1, 10, ["Plastic", 0.02]],
+						["Blaze", 1.98, 1e307],
 						["Ash", 0.02, -12],
 					],
 					lock: ["Knowledge", 36, "Energy", 0.01],
@@ -3485,7 +3485,7 @@ var hotCircle = {
 						["Sulphur", 0.3, 0.5],
 					],
 					out: [
-						["Blast", 0.3, 0.8],
+						["Blast", 0.3, 1e307],
 						["Dust", 0.3, -12],
 					],
 					lock: ["Iron", 120],
@@ -3497,7 +3497,7 @@ var hotCircle = {
 						["Blast", 1, 0.001],
 					],
 					out: [
-						["Blast", 0.995, -12],
+						["Blast", 0.995, -1e307],
 						["Dust", 0.005, -12],
 					],
 					lock: ["Dust", 1e99],
@@ -3511,7 +3511,7 @@ var hotCircle = {
 						["Blast", 1, 0.5],
 					],
 					out: [
-						["Blast", 1.1, 2.2, 5, ["Acid", 1]],
+						["Blast", 1.1, 1e307],
 						["Dust", 0.1, -12],
 					],
 					lock: ["Steel", 1],
@@ -3530,7 +3530,7 @@ var hotCircle = {
 						["Propane", 0.02, 0.1],
 					],
 					out: [
-						["Pyro", 0.03, 0.1],
+						["Pyro", 0.03, 1e307],
 					],
 					lock: ["Plastic", 1],
 				},
@@ -3541,7 +3541,7 @@ var hotCircle = {
 						["Pyro", 1, 0.001],
 					],
 					out: [
-						["Pyro", 0.975, -12],
+						["Pyro", 0.975, -1e307],
 						["Carbon", 0.025, -12],
 					],
 					lock: ["Carbon", 1e99],
@@ -3555,7 +3555,7 @@ var hotCircle = {
 						["Pyro", 1, 0.1],
 					],
 					out: [
-						["Pyro", 1.1, 1.2, 6, ["Steel", 1]],
+						["Pyro", 1.1, 1e307],
 					],
 					lock: ["Pyro", 0.001],
 				},
@@ -3575,7 +3575,7 @@ var hotCircle = {
 						["EssenceFire", 0.1, 0.1],
 					],
 					out: [
-						["Coal", 1, 12],
+						["Coal", 1, 1e307],
 					],
 					lock: ["Knowledge", 36],
 				},
@@ -3587,7 +3587,7 @@ var hotCircle = {
 						["Obsidian", 0.1, 0.1],
 					],
 					out: [
-						["Coal", 1, 12],
+						["Coal", 1, 1e307],
 					],
 					lock: ["Ash", 0.1],
 				},
@@ -3599,7 +3599,7 @@ var hotCircle = {
 						["Obsidian", 0.1, 0.1],
 					],
 					out: [
-						["Coal", 1, 12],
+						["Coal", 1, 1e307],
 					],
 					lock: ["Obsidian", 2.1],
 				},
@@ -3619,7 +3619,7 @@ var hotCircle = {
 						["Air", 1e5, 0.1],
 					],
 					out: [
-						["Sulphur", 1, 12],
+						["Sulphur", 1, 1e307],
 					],
 					lock: ["Bronze", 34],
 				},
@@ -3684,7 +3684,7 @@ var powerCircle = {
 						["Blaze", 0, 0.01],
 					],
 					out: [
-						["Fuel", 1, 12],
+						["Fuel", 1, 1e307],
 					],
 					lock: ["Knowledge", 36],
 				},
@@ -3704,10 +3704,10 @@ var powerCircle = {
 						["Cryospire", 0, 1],
 					],
 					out: [
-						["Diesel", 90, 12],
-						["Petrol", 8, 12],
-						["Propene", 1, 12],
-						["Propane", 1, 12],
+						["Diesel", 90, 1e307],
+						["Petrol", 8, 1e307],
+						["Propene", 1, 1e307],
+						["Propane", 1, 1e307],
 					],
 					lock: ["Blast", 0.1],
 				},
@@ -3726,7 +3726,7 @@ var powerCircle = {
 						["Gale", 0, 1],
 					],
 					out: [
-						["Energy", 100, -12],
+						["Energy", 100, -1e307],
 					],
 					lock: ["Knowledge", 36],
 					upgrade: ["fuelUsage2", "Copper", 6],
@@ -3739,7 +3739,7 @@ var powerCircle = {
 						["Gale", 0, 1],
 					],
 					out: [
-						["Energy", 100, 12],
+						["Energy", 100, 1e307],
 					],
 				},
 			}
@@ -3775,7 +3775,7 @@ var powerCircle = {
 						["Blaze", 0, 3],
 					],
 					out: [
-						["Energy", 20, -150],
+						["Energy", 20, -1e307],
 					],
 					lock: ["Steel", 1],
 				},
@@ -3803,7 +3803,7 @@ var powerCircle = {
 						["Pyro", 0, 0.5],
 					],
 					out: [
-						["Power", 5, -150],
+						["Power", 5, -1e307],
 					],
 					lock: ["Steel", 1],
 				},
@@ -3888,7 +3888,7 @@ var reachCircle = {
 						["Space", 1, 1.1],
 					],
 					out: [
-						["Spatial", 1, 9.6],
+						["Spatial", 1, 1e307],
 					],
 					lock: ["Glass", 1],
 				},
@@ -3899,8 +3899,8 @@ var reachCircle = {
 						["Spatial", 1, 0.1],
 					],
 					out: [
-						["Spatial", 10, -1e10],
-						["Space", 0.4, 1e10],
+						["Spatial", 10, -1e307],
+						["Space", 0.4, 1e307],
 					],
 					lock: ["Spatial", 0.01],
 				},
@@ -3918,7 +3918,7 @@ var reachCircle = {
 						["Space", 2, 11],
 					],
 					out: [
-						["Temporal", 1, 1.2],
+						["Temporal", 1, 1e307],
 					],
 					lock: ["Spatial", 1, "Space", 10, "Gold", 1, ],
 				},
@@ -3930,8 +3930,8 @@ var reachCircle = {
 						["Space", 1, 10.5],
 					],
 					out: [
-						["Temporal", 20, -1e10],
-						["Spatial", 1, 1e10],
+						["Temporal", 20, -1e307],
+						["Spatial", 1, 1e307],
 					],
 					lock: ["Temporal", 0.01],
 				},
@@ -3942,7 +3942,7 @@ var reachCircle = {
 						["Temporal", 0.0005, 4],
 					],
 					out: [
-						["Time", 4, -1e20],
+						["Time", 4, -1e307],
 					],
 					lock: ["Parallel", 0.01],
 				},
@@ -3960,7 +3960,7 @@ var reachCircle = {
 						["Space", 4, 110],
 					],
 					out: [
-						["Parallel", 1, 1.2],
+						["Parallel", 1, 1e307],
 					],
 					lock: ["Temporal", 1, "Space", 100],
 				},
@@ -3972,8 +3972,8 @@ var reachCircle = {
 						["Spatial", 1, 105],
 					],
 					out: [
-						["Parallel", 20, -1e10],
-						["Temporal", 1, 1e10],
+						["Parallel", 20, -1e307],
+						["Temporal", 1, 1e307],
 					],
 					lock: ["Parallel", 0.01],
 				},
@@ -3992,7 +3992,7 @@ var reachCircle = {
 						["Space", 1, 0.1],
 					],
 					out: [
-						["FoldedSpace", 1, 1.2],
+						["FoldedSpace", 1, 1e307],
 					],
 					lock: ["Knowledge", 36, "Parallel", 1, "Space", 1],
 				},
@@ -4010,7 +4010,7 @@ var reachCircle = {
 						["FoldedSpace", 1, 0.1],
 					],
 					out: [
-						["FoldedSpatial", 1, 1.2],
+						["FoldedSpatial", 1, 1e307],
 					],
 					lock: ["FoldedSpace", 1],
 				},
@@ -4021,8 +4021,8 @@ var reachCircle = {
 						["FoldedSpatial", 1, 0.1],
 					],
 					out: [
-						["FoldedSpatial", 10, -1e10],
-						["FoldedSpace", 0.4, 1e10],
+						["FoldedSpatial", 10, -1e307],
+						["FoldedSpace", 0.4, 1e307],
 					],
 					lock: ["FoldedSpatial", 0.01],
 				},
@@ -4040,7 +4040,7 @@ var reachCircle = {
 						["FoldedSpace", 3, 1.1],
 					],
 					out: [
-						["FoldedTemporal", 1, 1.2],
+						["FoldedTemporal", 1, 1e307],
 					],
 					lock: ["FoldedSpatial", 1, "FoldedSpace", 10],
 				},
@@ -4052,8 +4052,8 @@ var reachCircle = {
 						["FoldedSpace", 1, 11],
 					],
 					out: [
-						["FoldedTemporal", 20, -1e10],
-						["FoldedSpatial", 1, 150],
+						["FoldedTemporal", 20, -1e307],
+						["FoldedSpatial", 1, 1e307],
 					],
 					lock: ["FoldedTemporal", 0.01],
 				},
@@ -4064,7 +4064,7 @@ var reachCircle = {
 						["FoldedTemporal", 0.0006, 1.1],
 					],
 					out: [
-						["Time", 21, -1e20],
+						["Time", 21, -1e307],
 					],
 					lock: ["FoldedTemporal", 1],
 				},
@@ -4145,7 +4145,7 @@ var rarityCircle = {
 						["Alkahest", 2, 1.2],
 					],
 					out: [
-						["Silver", 1, 1.2],
+						["Silver", 1, 1e307],
 					],
 					lock: ["Knowledge", 36],
 				},
@@ -4157,7 +4157,7 @@ var rarityCircle = {
 						["Gale", 0, 4.8],
 					],
 					out: [
-						["Silver", 2, 16.3],
+						["Silver", 2, 1e307],
 					],
 					lock: ["Silver", 0.01, "Gale", 2],
 				},
@@ -4176,7 +4176,7 @@ var rarityCircle = {
 						["Alkahest", 4, 1.2],
 					],
 					out: [
-						["Bronze", 1, 1.2],
+						["Bronze", 1, 1e307],
 					],
 					lock: ["Knowledge", 36, "Silver", 0.01],
 				},
@@ -4188,7 +4188,7 @@ var rarityCircle = {
 						["Energy", 0.1, 0.8],
 					],
 					out: [
-						["Bronze", 2, 48.7],
+						["Bronze", 2, 1e307],
 					],
 					lock: ["Bronze", 0.01, "Energy", 2],
 				},
@@ -4207,7 +4207,7 @@ var rarityCircle = {
 						["Alkahest", 6, 1.2],
 					],
 					out: [
-						["Copper", 1, 1.2],
+						["Copper", 1, 1e307],
 					],
 					lock: ["Knowledge", 36, "Silver", 0.01],
 				},
@@ -4219,7 +4219,7 @@ var rarityCircle = {
 						["Blaze", 0, 0.3],
 					],
 					out: [
-						["Copper", 2, 184.7],
+						["Copper", 2, 1e307],
 					],
 					lock: ["Copper", 0.01, "Blaze", 0.6],
 				},
@@ -4238,7 +4238,7 @@ var rarityCircle = {
 						["Alkahest", 8, 1.2],
 					],
 					out: [
-						["Tin", 1, 1.2],
+						["Tin", 1, 1e307],
 					],
 					lock: ["Knowledge", 36, "Copper", 0.01],
 				},
@@ -4250,7 +4250,7 @@ var rarityCircle = {
 						["CompressedEarth", 0.001, 0.9],
 					],
 					out: [
-						["Tin", 2, 2.3e3],
+						["Tin", 2, 1e307],
 					],
 					lock: ["Tin", 0.01, "CompressedEarth", 3.6],
 				},
@@ -4269,7 +4269,7 @@ var rarityCircle = {
 						["Alkahest", 12, 1.2],
 					],
 					out: [
-						["Aluminum", 1, 1.2],
+						["Aluminum", 1, 1e307],
 					],
 					lock: ["Knowledge", 36, "Copper", 0.01],
 				},
@@ -4281,7 +4281,7 @@ var rarityCircle = {
 						["Gale", 0, 8.9],
 					],
 					out: [
-						["Aluminum", 2, 6.3e3],
+						["Aluminum", 2, 1e307],
 					],
 					lock: ["Aluminum", 0.01, "Gale", 3.6],
 				},
@@ -4300,7 +4300,7 @@ var rarityCircle = {
 						["Alkahest", 16, 1.2],
 					],
 					out: [
-						["Iron", 1, 1.2],
+						["Iron", 1, 1e307],
 					],
 					lock: ["Knowledge", 36, "Copper", 0.01],
 				},
@@ -4312,7 +4312,7 @@ var rarityCircle = {
 						["Alkahest", 0, 42],
 					],
 					out: [
-						["Iron", 2, 2.4e4],
+						["Iron", 2, 1e307],
 					],
 					lock: ["Knowledge", 36, "Aluminum", 3.6],
 					upgrade: ["ironAlchemy2", "Iron", 2.4],
@@ -4325,7 +4325,7 @@ var rarityCircle = {
 						["Alkahest", 0, 24],
 					],
 					out: [
-						["Iron", 2, 2.4e4],
+						["Iron", 2, 1e307],
 					],
 				},
 			}
@@ -4344,7 +4344,7 @@ var rarityCircle = {
 						["Pyro", 0, 0.4],
 					],
 					out: [
-						["Steel", 1, 1.2],
+						["Steel", 1, 1e307],
 					],
 					lock: ["Carbon", 1],
 				},
@@ -4365,7 +4365,7 @@ var rarityCircle = {
 						["Water", 200, 1e4],
 					],
 					out: [
-						["Clay", 1, 1.2],
+						["Clay", 1, 1e307],
 					],
 					lock: ["Ash", 1],
 				},
@@ -4384,7 +4384,7 @@ var rarityCircle = {
 						["Blaze", 0, 1],
 					],
 					out: [
-						["Plastic", 1, 0.1],
+						["Plastic", 1, 1e307],
 					],
 					lock: ["Propene", 0.1],
 				},
@@ -4396,7 +4396,7 @@ var rarityCircle = {
 						["Blaze", 0, 10],
 					],
 					out: [
-						["Plastic", 1, 1.2],
+						["Plastic", 1, 1e307],
 					],
 					lock: ["Plastic", 0.02],
 					upgrade: ["plasticProduction3", "SterileGlass", 1],
@@ -4409,7 +4409,7 @@ var rarityCircle = {
 						["Blaze", 0, 10],
 					],
 					out: [
-						["Plastic", 1, 1.2],
+						["Plastic", 1, 1e307],
 					],
 				},
 			}
@@ -4428,7 +4428,7 @@ var rarityCircle = {
 						["PureFire", 0.7, 1.7],
 					],
 					out: [
-						["Silicon", 0.4, 2.2],
+						["Silicon", 0.4, 1e307],
 					],
 					lock: ["Quartz", 1, "Earth", 1e6, "Water", 1e6, "Air", 1e6, "Fire", 1e6],
 				},
@@ -4448,7 +4448,7 @@ var rarityCircle = {
 						["Vortex", 0, 1],
 					],
 					out: [
-						["Acid", 1, 1.2],
+						["Acid", 1, 1e307],
 					],
 					lock: ["Vortex", 0.001, "Glass", 1],
 				},
@@ -4496,7 +4496,7 @@ var gemCircle = {
 						["Ash", 100, 11],
 					],
 					out: [
-						["CompressedAsh", 1, 0.1],
+						["CompressedAsh", 1, 1e307],
 					],
 					lock: ["Ash", 11],
 					upgrade: ["ashCompress2", "Pyro", 3],
@@ -4509,7 +4509,7 @@ var gemCircle = {
 						["Power", 10, 90],
 					],
 					out: [
-						["CompressedAsh", 5, 1.2],
+						["CompressedAsh", 5, 1e307],
 					],
 				},
 				dustCompress1:
@@ -4519,7 +4519,7 @@ var gemCircle = {
 						["Dust", 100, 11],
 					],
 					out: [
-						["CompressedDust", 1, 0.1],
+						["CompressedDust", 1, 1e307],
 					],
 					lock: ["Dust", 11],
 					upgrade: ["dustCompress2", "Pyro", 3],
@@ -4532,7 +4532,7 @@ var gemCircle = {
 						["Energy", 100, 90],
 					],
 					out: [
-						["CompressedDust", 5, 1.2],
+						["CompressedDust", 5, 1e307],
 					],
 				},
 			}
@@ -4550,7 +4550,7 @@ var gemCircle = {
 						["Energy", 1, 1.2],
 					],
 					out: [
-						["Gravel", 1, 1.2, 10, ["PureEarth", 1]],
+						["Gravel", 1, 1e307],
 					],
 					lock: ["Energy", 1],
 				},
@@ -4563,7 +4563,7 @@ var gemCircle = {
 						["Cryogen", 1, 1],
 					],
 					out: [
-						["Pebbles", 1, 0.1],
+						["Pebbles", 1, 1e307],
 					],
 					lock: ["Knowledge", 8],
 					upgrade: ["pebbleProduction2", "Energy", 1, "Gravel", 0.1],
@@ -4576,7 +4576,7 @@ var gemCircle = {
 						["Energy", 1, 1.2],
 					],
 					out: [
-						["Pebbles", 1, 1.2, 10, ["FoldedSpace", 200]],
+						["Pebbles", 1, 1e307],
 					],
 					lock: ["Energy", 1],
 				},
@@ -4588,7 +4588,7 @@ var gemCircle = {
 						["Energy", 1, 1.2],
 					],
 					out: [
-						["Stone", 1, 1.2, 10, ["Acid", 1]],
+						["Stone", 1, 1e307],
 					],
 					lock: ["Energy", 1],
 				},
@@ -4854,11 +4854,11 @@ var gemCircle = {
 						["Gemstone", 1, 1]
 					],
 					out: [
-						["Quartz", 1, 326],
-						["Emerald", 0, 77],
-						["Sapphire", 0, 77],
-						["Topaz", 0, 77],
-						["Ruby", 0, 77],
+						["Quartz", 1, 1e307],
+						["Emerald", 0, 1e307],
+						["Sapphire", 0, 1e307],
+						["Topaz", 0, 1e307],
+						["Ruby", 0, 1e307],
 					],
 					lock: ["Gemstone", 1],
 				},
@@ -4953,7 +4953,7 @@ var pureCircle = {
 						["Vortex", 0, 4],
 					],
 					out: [
-						["SterileGlass", 1, 108],
+						["SterileGlass", 1, 1e307],
 					],
 					lock: ["Silicon", 1],
 				},
@@ -4973,7 +4973,7 @@ var pureCircle = {
 						["Cryospire", 0, 9],
 					],
 					out: [
-						["CompressionCrystal", 1, 4.2],
+						["CompressionCrystal", 1, 1e307],
 					],
 					lock: ["SterileGlass", 1],
 				},
@@ -4996,7 +4996,7 @@ var pureCircle = {
 						["Ruby", 5, 5],
 					],
 					out: [
-						["PerfectedOrb", 1, 4],
+						["PerfectedOrb", 1, 1e307],
 					],
 					lock: ["CompressionCrystal", 1],
 				},
@@ -5015,7 +5015,7 @@ var pureCircle = {
 						["PureEssenceEarth", 1, 1.2],
 					],
 					out: [
-						["PureEarth", 4, 1.2, 4.4, ["Clay", 1, "Plastic", 1, "Silicon", 1]],
+						["PureEarth", 4, 1e307],
 					],
 					lock: ["Aluminum", 1e3],
 				},
@@ -5027,7 +5027,7 @@ var pureCircle = {
 						["PureEssenceWater", 1, 1.2],
 					],
 					out: [
-						["PureWater", 1, 1.2, 4.4, ["Clay", 1, "Plastic", 1, "Silicon", 1]],
+						["PureWater", 1, 1e307],
 					],
 					lock: ["Aluminum", 1e3],
 				},
@@ -5039,7 +5039,7 @@ var pureCircle = {
 						["PureEssenceAir", 1, 1.2],
 					],
 					out: [
-						["PureAir", 3, 1.2, 4.4, ["Clay", 1, "Plastic", 1, "Silicon", 1]],
+						["PureAir", 3, 1e307],
 					],
 					lock: ["Aluminum", 1e3],
 				},
@@ -5051,7 +5051,7 @@ var pureCircle = {
 						["PureEssenceFire", 1, 1.2],
 					],
 					out: [
-						["PureFire", 6, 1.2, 4.4, ["Clay", 1, "Plastic", 1, "Silicon", 1]],
+						["PureFire", 6, 1e307],
 					],
 					lock: ["Aluminum", 1e3],
 				},
@@ -5067,7 +5067,7 @@ var pureCircle = {
 					baseStats: [1, 1, true, false],
 					in: [],
 					out: [
-						["PureEarth", 1, 1.2],
+						["PureEarth", 1, 1e307],
 					],
 					lock: ["Mystery", 1e99],
 				},
@@ -5083,7 +5083,7 @@ var pureCircle = {
 					baseStats: [1, 1, true, false],
 					in: [],
 					out: [
-						["PureWater", 1, 1.2],
+						["PureWater", 1, 1e307],
 					],
 					lock: ["Mystery", 1e99],
 				},
@@ -5099,7 +5099,7 @@ var pureCircle = {
 					baseStats: [1, 1, true, false],
 					in: [],
 					out: [
-						["PureAir", 1, 1.2],
+						["PureAir", 1, 1e307],
 					],
 					lock: ["Mystery", 1e99],
 				},
@@ -5115,7 +5115,7 @@ var pureCircle = {
 					baseStats: [1, 1, true, false],
 					in: [],
 					out: [
-						["PureFire", 1, 1.2],
+						["PureFire", 1, 1e307],
 					],
 					lock: ["Mystery", 1e99],
 				},
@@ -5134,7 +5134,7 @@ var pureCircle = {
 						["PureEarth", 100, 100],
 					],
 					out: [
-						["PureGolemEarth", 1, 1],
+						["PureGolemEarth", 1, 1e307],
 					],
 					lock: ["SterileGlass", 21],
 				},
@@ -5153,7 +5153,7 @@ var pureCircle = {
 						["PureWater", 100, 100],
 					],
 					out: [
-						["PureGolemWater", 1, 1],
+						["PureGolemWater", 1, 1e307],
 					],
 					lock: ["SterileGlass", 21],
 				},
@@ -5172,7 +5172,7 @@ var pureCircle = {
 						["PureAir", 100, 100],
 					],
 					out: [
-						["PureGolemAir", 1, 1],
+						["PureGolemAir", 1, 1e307],
 					],
 					lock: ["SterileGlass", 21],
 				},
@@ -5191,7 +5191,7 @@ var pureCircle = {
 						["PureFire", 100, 100],
 					],
 					out: [
-						["PureGolemFire", 1, 1],
+						["PureGolemFire", 1, 1e307],
 					],
 					lock: ["SterileGlass", 21],
 				},
