@@ -37,7 +37,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 0.1, false, false],
 				in: [],
 				out: [
-					["Earth", 1, 1e307],
+					["Earth", 1, 1e306, 10, ["Earth", 80]],
 				],
 				upgrade: ["earthRift2", "Mud", 0.1, "Magma", 0.1],
 			},
@@ -46,7 +46,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 1, false, false],
 				in: [],
 				out: [
-					["Earth", 10, 1e307],
+					["Earth", 10, 1e306, 9, ["GolemEarth", 5]],
 				],
 			},
 			earthConversion1:
@@ -57,7 +57,7 @@ var simplifiedMachineData = {
 					["Fire", 1, 1.1],
 				],
 				out: [
-					["Earth", 2, 1e307],
+					["Earth", 2, 1e305, 4, ["Earth", 10, "GolemEarth", 1]],
 				],
 				lock: ["Fire", 1],
 				upgrade: ["earthConversion2", "Earth", 100],
@@ -81,7 +81,7 @@ var simplifiedMachineData = {
 					["Earth", 1, 1]
 				],
 				out: [
-					["Earth", 1, 1e307],
+					["Earth", 1, 1e306, 4, ["Alkahest", 0.002]],
 				],
 				upgrade: ["earthRift4", "PureEarth", 1],
 			},
@@ -105,7 +105,7 @@ var simplifiedMachineData = {
 					["Magma", 0, 1.5],
 				],
 				out: [
-					["Earth", 2, 1e307],
+					["Earth", 2, 1e306, 4, ["Mud", 10]],
 				],
 				lock: ["Mud", 0.2, "Magma", 0.2],
 				upgrade: ["earthCRift1", "Void", 80, "GolemEarth", 8],
@@ -155,7 +155,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 0.1, false, false],
 				in: [],
 				out: [
-					["Water", 1, 1e307],
+					["Water", 1, 1e306, 10, ["Water", 80]],
 				],
 				upgrade: ["waterRift2", "Ice", 0.1, "Steam", 0.1],
 			},
@@ -164,7 +164,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 1, false, false],
 				in: [],
 				out: [
-					["Water", 10, 1e307],
+					["Water", 10, 1e306, 9, ["GolemWater", 5]],
 				],
 			},
 			waterConversion1:
@@ -175,7 +175,7 @@ var simplifiedMachineData = {
 					["Water", 1, 1.1],
 				],
 				out: [
-					["Water", 2, 1e307],
+					["Water", 2, 1e305, 4, ["Water", 10, "GolemWater", 1]],
 				],
 				lock: ["Air", 0.1],
 				upgrade: ["waterConversion2", "Water", 100],
@@ -199,7 +199,7 @@ var simplifiedMachineData = {
 					["Water", 1, 1]
 				],
 				out: [
-					["Water", 1, 1e307],
+					["Water", 1, 1e306, 4, ["Alkahest", 0.002]],
 				],
 				upgrade: ["waterRift4", "PureWater", 1],
 			},
@@ -224,7 +224,7 @@ var simplifiedMachineData = {
 					["Steam", 0, 1.5],
 				],
 				out: [
-					["Water", 2, 1e307],
+					["Water", 2, 1e306, 4, ["Ice", 10]],
 				],
 				lock: ["Mud", 0.2, "Ice", 0.2, "Steam", 0.2],
 				upgrade: ["waterCRift1", "Void", 80, "GolemWater", 8],
@@ -274,7 +274,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 0.1, false, false],
 				in: [],
 				out: [
-					["Air", 1, 1e307],
+					["Air", 1, 1e306, 10, ["Air", 80]],
 				],
 				upgrade: ["airRift2", "Steam", 0.1, "Sand", 0.1],
 			},
@@ -283,7 +283,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 1, false, false],
 				in: [],
 				out: [
-					["Air", 10, 1e307],
+					["Air", 10, 1e306, 9, ["GolemAir", 5]],
 				],
 			},
 			airConversion1:
@@ -294,7 +294,7 @@ var simplifiedMachineData = {
 					["Fire", 1, 1.1],
 				],
 				out: [
-					["Air", 2, 1e307],
+					["Air", 2, 1e306, 4, ["Air", 10, "GolemAir", 1]],
 				],
 				lock: ["Fire", 1],
 				upgrade: ["airConversion2", "Air", 100],
@@ -318,7 +318,7 @@ var simplifiedMachineData = {
 					["Air", 1, 1]
 				],
 				out: [
-					["Air", 1, 1e307],
+					["Air", 1, 1e306, 4, ["Alkahest", 0.002]],
 				],
 				upgrade: ["airRift4", "PureAir", 1],
 			},
@@ -342,7 +342,7 @@ var simplifiedMachineData = {
 					["Sand", 0, 1.5],
 				],
 				out: [
-					["Air", 2, 1e307],
+					["Air", 2, 1e306, 4, ["Steam", 10]],
 				],
 				lock: ["Steam", 0.2, "Sand", 0.2],
 				upgrade: ["airCRift1", "Void", 80, "GolemAir", 8],
@@ -392,7 +392,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 0.1, false, false],
 				in: [],
 				out: [
-					["Fire", 1, 1e307],
+					["Fire", 1, 1e306, 10, ["Fire", 75]],
 				],
 				upgrade: ["fireRift2", "Steam", 0.1, "Magma", 0.1],
 			},
@@ -401,7 +401,7 @@ var simplifiedMachineData = {
 				baseStats: [1, 1, false, false],
 				in: [],
 				out: [
-					["Fire", 10, 1e307],
+					["Fire", 10, 1e306, 9, ["GolemFire", 5]],
 				],
 			},
 			fireConversion1:
@@ -412,7 +412,7 @@ var simplifiedMachineData = {
 					["Fire", 1, 1.1],
 				],
 				out: [
-					["Fire", 2, 1e307],
+					["Fire", 2, 1e306, 4, ["Fire", 10, "GolemFire", 1]],
 				],
 				lock: ["Fire", 1],
 				upgrade: ["fireConversion2", "Fire", 100],
@@ -436,7 +436,7 @@ var simplifiedMachineData = {
 					["Fire", 1, 1]
 				],
 				out: [
-					["Fire", 1, 1e307],
+					["Fire", 1, 1e306, 4, ["Alkahest", 0.002]],
 				],
 				upgrade: ["fireRift4", "PureFire", 1],
 			},
@@ -460,7 +460,7 @@ var simplifiedMachineData = {
 					["Magma", 0, 1.5],
 				],
 				out: [
-					["Fire", 2, 1e307],
+					["Fire", 2, 1e306, 4, ["Magma", 10]],
 				],
 				lock: ["Steam", 0.2, "Magma", 0.2],
 				upgrade: ["fireCRift1", "Void", 80, "GolemFire", 8],
@@ -667,7 +667,7 @@ var simplifiedMachineData = {
 					["Water", 700, 900],
 				],
 				out: [
-					["Mud", 1, 1e307],
+					["Mud", 1, 1e306, 4, ["GolemWater", 3]],
 				],
 				upgrade: ["mergeMud3", "Void", 0.01],
 			},
@@ -707,7 +707,7 @@ var simplifiedMachineData = {
 					["Water", 700, 900],
 				],
 				out: [
-					["Ice", 1, 1e307],
+					["Ice", 1, 1e306, 3, ["GolemWater", 13]],
 				],
 				upgrade: ["mergeIce3", "Void", 0.01],
 			},
@@ -747,7 +747,7 @@ var simplifiedMachineData = {
 					["Water", 700, 900],
 				],
 				out: [
-					["Steam", 1, 1e307],
+					["Steam", 1, 1e306, 3, ["GolemWater", 13]],
 				],
 				upgrade: ["mergeSteam3", "Void", 0.01],
 			},
@@ -787,7 +787,7 @@ var simplifiedMachineData = {
 					["Earth", 700, 900],
 				],
 				out: [
-					["Magma", 1, 1e307],
+					["Magma", 1, 1e306, 3, ["GolemEarth", 13]],
 				],
 				upgrade: ["mergeMagma3", "Void", 0.01],
 			},
@@ -847,7 +847,7 @@ var simplifiedMachineData = {
 					["Fire", 0, 10000],
 				],
 				out: [
-					["Mud", 1, 1e307],
+					["Mud", 1, 1e305, 4, ["Mud", 60, "Glass", 0.8]],
 				],
 				upgrade: ["mudConversion3", "Silicon", 1, "Plastic", 1, "Steel", 1],
 			},
@@ -918,7 +918,7 @@ var simplifiedMachineData = {
 					["Air", 0, 10000],
 				],
 				out: [
-					["Ice", 1, 1e307],
+					["Ice", 1, 1e305, 4, ["Ice", 60, "Glass", 0.8]],
 				],
 				upgrade: ["iceConversion3", "Silicon", 1, "Plastic", 1, "Steel", 1, "Void", 2000],
 			},
@@ -990,7 +990,7 @@ var simplifiedMachineData = {
 					["Fire", 0, 10000],
 				],
 				out: [
-					["Steam", 1, 1e307],
+					["Steam", 1, 1e305, 4, ["Steam", 60, "Glass", 0.8]],
 				],
 				upgrade: ["steamConversion3", "Silicon", 1, "Plastic", 1, "Steel", 1],
 			},
@@ -1061,7 +1061,7 @@ var simplifiedMachineData = {
 					["Fire", 0, 10000],
 				],
 				out: [
-					["Magma", 1, 1e307],
+					["Magma", 1, 1e305, 4, ["Magma", 60, "Glass", 0.8]],
 
 				],
 				upgrade: ["magmaConversion3", "Silicon", 1, "Plastic", 1, "Steel", 1],
@@ -1133,7 +1133,7 @@ var simplifiedMachineData = {
 					["Fire", 400, 10],
 				],
 				out: [
-					["Sand", 1, 1e307],
+					["Sand", 1, 1e305, 4, ["Magma", 180, "Soil", 1.6]],
 
 				],
 				upgrade: ["sandConversion3", "Silicon", 1, "Plastic", 1, "Steel", 1],
@@ -1203,8 +1203,8 @@ var simplifiedMachineData = {
 					["Steam", 10, 150],
 				],
 				out: [
-					["Void", 1, 1e307],
-					["Mud", 19, -1e307],
+					["Void", 1, 1e306, 8, ["Glass", 0.8]],
+					["Mud", 19, -1e305, 2, ["Mud", 200, "Mud", 400, "Mud", 800, "Mud", 1600, "Mud", 2500]],
 				],
 			},
 			voidConversion3:
@@ -1979,7 +1979,7 @@ var midCircle = {
 					],
 					out: [
 						["Revelation", 1, -1e307],
-						["Knowledge", 0.05, 9, 1e307],
+						["Knowledge", 0.05, 9, 1e306, 1.3, ["DistilledEarth", 0.1, "DistilledWater", 0.1, "DistilledAir", 0.1, "DistilledFire", 0.1]],
 					],
 					upgrade: ["knowledgeProduction3", "Knowledge", 25],
 				},
@@ -2001,7 +2001,7 @@ var midCircle = {
 						["Gold", 1, 0.3],
 					],
 					out: [
-						["Revelation", 1, 1e307],
+						["Revelation", 1, 1e306, 4, ["Knowledge", 8]],
 					],
 					lock: ["Gold", 0.1],
 					upgrade: ["revelationGain2", "Knowledge", 75],
@@ -2032,7 +2032,7 @@ var midCircle = {
 						["Water", 200, 7900],
 					],
 					out: [
-						["Essence", 1, 1e307],
+						["Essence", 1, 1e306, 2, ["Glass", 1.1]],
 					],
 					lock: ["Knowledge", 0.5, "Space", 1],
 				},
@@ -2052,7 +2052,7 @@ var midCircle = {
 						["Earth", 200, 7900],
 					],
 					out: [
-						["Soil", 1, 1e307],
+						["Soil", 1, 1e306, 2, ["Force", 0.2]],
 					],
 					lock: ["Knowledge", 0.1],
 					upgrade: ["soilMerge2", "Knowledge", 36],
@@ -2172,7 +2172,7 @@ var midCircle = {
 						["Air", 200, 7900],
 					],
 					out: [
-						["Snow", 1, 1e307],
+						["Snow", 1, 1e305, 4, ["Cryospire", 0.1, "Vortex", 0.1]],
 					],
 					lock: ["Knowledge", 0.3],
 				},
@@ -2213,7 +2213,7 @@ var midCircle = {
 						["Lava", 0, 1.1],
 					],
 					out: [
-						["Glass", 1, 1e307],
+						["Glass", 1, 1e306, 2, ["Knowledge", 36]],
 					],
 					lock: ["Knowledge", 3.3, "Sand", 300],
 				},
@@ -2938,7 +2938,7 @@ var lifeCircle = {
 						["PlantEarth", 100, 10],
 					],
 					out: [
-						["EssenceEarth", 1, 1e307],
+						["EssenceEarth", 1, 1e306, 7, ["FoldedSpace", 0.01]],
 					],
 					lock: ["PlantEarth", 1],
 				},
@@ -2983,7 +2983,7 @@ var lifeCircle = {
 						["PlantWater", 100, 10],
 					],
 					out: [
-						["EssenceWater", 1, 1e307],
+						["EssenceWater", 1, 1e306, 7, ["Force", 1]],
 					],
 					lock: ["PlantWater", 1],
 				},
@@ -3027,7 +3027,7 @@ var lifeCircle = {
 						["PlantAir", 100, 10],
 					],
 					out: [
-						["EssenceAir", 1, 1e307],
+						["EssenceAir", 1, 1e306, 7, ["Force", 1]],
 					],
 					lock: ["PlantAir", 1],
 				},
@@ -3071,7 +3071,7 @@ var lifeCircle = {
 						["PlantFire", 10, 10],
 					],
 					out: [
-						["EssenceFire", 1, 1e307],
+						["EssenceFire", 1, 1e306, 7, ["Force", 1]],
 					],
 					lock: ["PlantFire", 1],
 				},
@@ -3466,7 +3466,7 @@ var hotCircle = {
 						["Blaze", 1, 0.1],
 					],
 					out: [
-						["Blaze", 1.98, 1e307],
+						["Blaze", 1.98, 1e306, 10, ["Plastic", 0.02]],
 						["Ash", 0.02, -12],
 					],
 					lock: ["Knowledge", 36, "Energy", 0.01],
@@ -3511,7 +3511,7 @@ var hotCircle = {
 						["Blast", 1, 0.5],
 					],
 					out: [
-						["Blast", 1.1, 1e307],
+						["Blast", 1.1, 1e306, 5, ["Acid", 1]],
 						["Dust", 0.1, -12],
 					],
 					lock: ["Steel", 1],
@@ -3555,7 +3555,7 @@ var hotCircle = {
 						["Pyro", 1, 0.1],
 					],
 					out: [
-						["Pyro", 1.1, 1e307],
+						["Pyro", 1.1, 1e306, 6, ["Steel", 1]],
 					],
 					lock: ["Pyro", 0.001],
 				},
@@ -4550,7 +4550,7 @@ var gemCircle = {
 						["Energy", 1, 1.2],
 					],
 					out: [
-						["Gravel", 1, 1e307],
+						["Gravel", 1, 1e306, 10, ["PureEarth", 1]],
 					],
 					lock: ["Energy", 1],
 				},
@@ -4576,7 +4576,7 @@ var gemCircle = {
 						["Energy", 1, 1.2],
 					],
 					out: [
-						["Pebbles", 1, 1e307],
+						["Pebbles", 1, 1e306, 10, ["FoldedSpace", 200]],
 					],
 					lock: ["Energy", 1],
 				},
@@ -4588,7 +4588,7 @@ var gemCircle = {
 						["Energy", 1, 1.2],
 					],
 					out: [
-						["Stone", 1, 1e307],
+						["Stone", 1, 1e306, 10, ["Acid", 1]],
 					],
 					lock: ["Energy", 1],
 				},
@@ -5015,7 +5015,7 @@ var pureCircle = {
 						["PureEssenceEarth", 1, 1.2],
 					],
 					out: [
-						["PureEarth", 4, 1e307],
+						["PureEarth", 4, 1e305, 4.4, ["Clay", 1, "Plastic", 1, "Silicon", 1]],
 					],
 					lock: ["Aluminum", 1e3],
 				},
@@ -5027,7 +5027,7 @@ var pureCircle = {
 						["PureEssenceWater", 1, 1.2],
 					],
 					out: [
-						["PureWater", 1, 1e307],
+						["PureWater", 1, 1e305, 4.4, ["Clay", 1, "Plastic", 1, "Silicon", 1]],
 					],
 					lock: ["Aluminum", 1e3],
 				},
@@ -5039,7 +5039,7 @@ var pureCircle = {
 						["PureEssenceAir", 1, 1.2],
 					],
 					out: [
-						["PureAir", 3, 1e307],
+						["PureAir", 3, 1e305, 4.4, ["Clay", 1, "Plastic", 1, "Silicon", 1]],
 					],
 					lock: ["Aluminum", 1e3],
 				},
@@ -5051,7 +5051,7 @@ var pureCircle = {
 						["PureEssenceFire", 1, 1.2],
 					],
 					out: [
-						["PureFire", 6, 1e307],
+						["PureFire", 6, 1e305, 4.4, ["Clay", 1, "Plastic", 1, "Silicon", 1]],
 					],
 					lock: ["Aluminum", 1e3],
 				},
