@@ -1979,7 +1979,7 @@ var midCircle = {
 					],
 					out: [
 						["Revelation", 1, -1e307],
-						["Knowledge", 0.05, 9, 1e306, 1.3, ["DistilledEarth", 0.1, "DistilledWater", 0.1, "DistilledAir", 0.1, "DistilledFire", 0.1]],
+						["Knowledge", 0.05, 1e306, 1.3, ["DistilledEarth", 0.1, "DistilledWater", 0.1, "DistilledAir", 0.1, "DistilledFire", 0.1]],
 					],
 					upgrade: ["knowledgeProduction3", "Knowledge", 25],
 				},
